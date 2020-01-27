@@ -21,6 +21,7 @@
 *.zip
 *_token
 .vagrant
+.gradle
 
 # Logs and databases #
 ######################

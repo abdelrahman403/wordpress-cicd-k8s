@@ -19,9 +19,6 @@ storage/framework
 storage/logs
 vendor
 
-# wordpress
-dist
-
 # Node
 ## Logs
 logs
