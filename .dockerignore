@@ -1,0 +1,35 @@
+# Common
+README.md
+CHANGELOG.md
+docker-compose.yml
+Dockerfile
+.gradle
+
+# git
+.git
+.gitattributes
+.gitignore
+
+# JetBrains
+.idea
+
+# Laravel 
+bootstrap/cache
+storage/framework
+storage/logs
+vendor
+
+# wordpress
+dist
+
+# Node
+## Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## Dependency directories
+node_modules/
+
