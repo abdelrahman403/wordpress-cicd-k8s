@@ -4,6 +4,8 @@ CHANGELOG.md
 docker-compose.yml
 Dockerfile
 .gradle
+secret*.yml
+configmap*.yml
 
 # git
 .git
