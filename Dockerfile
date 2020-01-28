@@ -8,5 +8,5 @@ LABEL maintainer="abdelrhmanhassan882@gmail.com"
 WORKDIR /var/www/html
 
 # Run Commands 
-COPY project/ .
+COPY src/ .
 RUN chown -R www-data:www-data /var/www/html
