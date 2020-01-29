@@ -22,7 +22,7 @@ spec:
   capacity:
     storage: 1Gi
   accessModes:
-   - ReadWriteOnce
+    - ReadWriteOnce
   hostPath:
     path: "/mnt/mysqlData"
     type: DirectoryOrCreate
