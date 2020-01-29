@@ -17,10 +17,10 @@ spec:
       containers:
       - name: wordpress
         image: $DOCKER_IMAGE_NAME:$BUILD_NUMBER
-        resources:
-          limits:
-            memory: "128Mi"
-            cpu: "250m"
+        # resources:
+        #   limits:
+        #     memory: "128Mi"
+        #     cpu: "250m"
         env:
         - name: WP_DB_HOST
           valueFrom:
