@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name:  mysql-pvc
 spec:
-  storageClassName: mysqlStorage
+  storageClassName: mysqlstorage
   accessModes:
     - ReadWriteOnce
   resources:
@@ -18,7 +18,7 @@ metadata:
   labels:
     type: local
 spec:
-  storageClassName: mysqlStorage
+  storageClassName: mysqlstorage
   capacity:
     storage: 1Gi
   accessModes:
