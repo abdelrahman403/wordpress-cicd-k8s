@@ -68,9 +68,7 @@ metadata:
 spec:
   selector:
     app: mysql-db
-  type: NodePort
+  type: ClusterIP
   ports:
-    - port: 3306
-      nodePort: 3306
-      targetPort: mysql-port
-      protocol: TCP
+    - name: http
+      port: 3306
