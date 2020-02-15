@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo "Deploy Secrets: "
+kubectl apply -f secrets.yml
+echo "Deploy ConfigMaps: "
+kubectl apply -f configmap-wp.yml
+echo "Display Secrets: "
+kubectl get secrets
+echo "Display ConfigMaps: "
+kubectl get cm
+echo "Deploy MySql Storage: "
+kubectl apply -f mysql-storage.yml
+echo "Display PersistentVolume: "
+kubectl get pv
+echo "Display PersistentVolumeClaim: "
+kubectl get pvc
+echo "Deploy MySql and Its Service: "
+kubectl apply -f mysql.yml
+kubectl apply -f wordpress.yml
+echo "Display All PODs: "
+kubectl get pods
+
+
